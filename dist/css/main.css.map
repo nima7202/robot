@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/base/__base.scss",
+        "../../scss/comps/__code.scss",
+        "../../scss/layouts/__page.scss",
+        "../../scss/utils/__mixin.scss",
+        "../../scss/utils/__valiable.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
