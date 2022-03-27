@@ -25,6 +25,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFF;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .d-flex {
@@ -43,6 +49,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.jce {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .jcc {
@@ -72,5 +84,31 @@ body {
 
 .w-100 {
   width: 100%;
+}
+
+.btn {
+  background-color: transparent;
+  border: 0.1rem #FFF solid;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.7rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+nav .nav__item:hover {
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=main.css.map */
